@@ -36,7 +36,7 @@ Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-139-generic x86_64)
 Now logout by typing: `logout`
 
 ### Access app
-Navigate to: [10.0.0.5](http://10.0.0.5), you'd see a fancy "Hello" message:-)
+Point your browser to: [http://10.0.0.5](http://10.0.0.5), you'd see a fancy "Hello" message:-)
 
 
 ##### Credit
