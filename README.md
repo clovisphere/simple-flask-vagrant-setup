@@ -8,7 +8,7 @@ You need to install:
 
 I will be using [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) for this setup, you can grab a copy for your OS [here](https://www.virtualbox.org/wiki/Downloads).
 
-### Easy Install
+### Quick start
 1. clone this repo and [cd](https://www.wikiwand.com/en/Cd_(command)) into it: 
  ```
  git clone git@github.com:clovisphere/Flask-Vagrant-Setup.git && cd Flask-Vagrant-Setup
@@ -29,7 +29,7 @@ You'd be see a welcome message like:
 Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-139-generic x86_64)
 ```
 
-Now logout with: `logout`
+Now logout by typing: `logout`
 
 ### Access app
 Navigate to: [10.0.0.5](http://10.0.0.5), you'd see a fancy "Hello" message:-)
