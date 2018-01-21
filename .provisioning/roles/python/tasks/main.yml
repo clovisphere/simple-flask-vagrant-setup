@@ -1,0 +1,29 @@
+---
+
+- name: Install common python packages
+  apt: name={{ item }} state=latest
+  with_items:
+    - python3-dev
+    - python3-pip
+    - python3-pycurl
+
+- name: Delete all existing .pyc files
+  command: find . -name '*.pyc' -delete
+  args:
+    chdir: "{{ project_path }}"
+  changed_when: false
+
+- name: Install virtualenv (latest from pip)
+  pip: executable=pip3 name=virtualenv
+
+- name: Create the virtualenv
+  command: virtualenv {{ virtualenv_path }} creates={{ virtualenv_path }}/bin/activate
+  become: no
+
+- name: Install packages from requirements.txt inside virtualenv
+  pip: virtualenv={{ virtualenv_path }} requirements={{ requirements_file }}
+  become: no
+
+- name: Activate virtualenv on login
+  lineinfile: dest=~/.bashrc line='. {{ virtualenv_path }}/bin/activate'
+  become: no
