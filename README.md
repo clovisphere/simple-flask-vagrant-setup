@@ -27,6 +27,10 @@ vagrant ssh
 You'd be see a welcome message like:
 ```
 Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-139-generic x86_64)
+.
+.
+.
+.
 ```
 
 Now logout by typing: `logout`
