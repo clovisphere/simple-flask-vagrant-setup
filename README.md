@@ -9,9 +9,9 @@ You need to install:
 I will be using [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) for this setup, you can grab a copy for your OS [here](https://www.virtualbox.org/wiki/Downloads).
 
 ### Qucik start
-1. clone this repo: 
+1. clone this repo and `cd` into it: 
  ```
- git clone https://github.com/clovisphere/Flask-Vagrant-Setup.git
+ git clone https://github.com/clovisphere/Flask-Vagrant-Setup.git && cd "$_"
  ```
 2. Boot up your Vagrant environment:
 ```
