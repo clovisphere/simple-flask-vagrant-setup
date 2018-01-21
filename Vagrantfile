@@ -18,8 +18,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # run Ansible from the Vagrant VM
   config.vm.provision "ansible_local" do |ansible|
     ansible.install = true
-    ansible.playbook = ".provisioning/playbook.yml"
-    ansible.inventory_path = ".provisioning/inventory"
   end
 
   # add localhost to Ansible inventory
