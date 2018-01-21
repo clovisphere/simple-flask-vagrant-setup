@@ -36,4 +36,4 @@ Navigate to: [10.0.0.5](http://10.0.0.5), you'd see a fancy "Hello" message:-)
 
 
 ##### Credit
-* [Arron Oxborrow](https://github.com/paste), without whom I would have spent many more hours trying to understand *vagrant-ansible* provisioning.
+* [Aaron Oxborrow](https://github.com/paste), without whom I would have spent many more hours trying to understand *vagrant-ansible* provisioning.
