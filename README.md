@@ -11,7 +11,7 @@ I will be using [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) for thi
 ### Qucik start
 1. clone this repo and [cd](https://www.wikiwand.com/en/Cd_(command)) into it: 
  ```
- git clone https://github.com/clovisphere/Flask-Vagrant-Setup.git && cd "$_"
+ git clone git@github.com:clovisphere/Flask-Vagrant-Setup.git && cd Flask-Vagrant-Setup
  ```
 2. Boot up your Vagrant environment:
 ```
