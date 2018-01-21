@@ -9,7 +9,6 @@ You need to install:
 I will be using [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) for this setup, you can grab a copy for your OS [here](https://www.virtualbox.org/wiki/Downloads).
 
 ### Qucik start
-
 1. clone this repo: 
  ```
  git clone https://github.com/clovisphere/Flask-Vagrant-Setup.git
@@ -33,6 +32,8 @@ Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-139-generic x86_64)
 Now logout with: `logout`
 
 ### Access app
-
 Navigate to: [10.0.0.5](http://10.0.0.5), you'd see a fancy "Hello" message:-)
 
+
+###### Credit
+* [Arron Oxborrow](https://github.com/paste)
