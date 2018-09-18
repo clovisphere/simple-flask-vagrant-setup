@@ -24,7 +24,7 @@ Vagrant runs the virtual machine without a UI. To prove that it is running, you 
 ```
 vagrant ssh
 ```
-You'd be see a welcome message like:
+You'd be seeing a welcome message like:
 ```
 Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-139-generic x86_64)
 .
