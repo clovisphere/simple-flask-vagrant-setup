@@ -1,4 +1,5 @@
-# Flask-Vagrant-Setup
+# Flask-Vagrant-Setup  ![total number of forks](https://img.shields.io/github/forks/clovisphere/simple-flask-vagrant-setup.svg) ![open issues](https://img.shields.io/github/issues/clovisphere/simple-flask-vagrant-setup.svg)
+
 Configure a Flask app on a VM using [Vagrant](https://www.vagrantup.com/), with provisioning handled by [Ansible](https://www.ansible.com/) i.e _setting up [python](https://www.python.org/), [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/), [nginx](https://nginx.org/en/), [gunicorn](http://gunicorn.org/), etc._
 
 ## Prerequisite
