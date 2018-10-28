@@ -19,6 +19,10 @@ I will be using [VirtualBox](https://www.virtualbox.org/wiki/VirtualBox) for thi
 vagrant up
 ```
 
+(*) If you get an HTTP 500, try doing a:
+
+```vagrant up --provision``` or ```vagrant reload --provision```
+
 _This may take less or more than a minute depending on your internet connection (so be patient)._ 
 
 Vagrant runs the virtual machine without a UI. To prove that it is running, you can SSH into the machine:
