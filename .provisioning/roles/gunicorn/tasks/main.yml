@@ -1,9 +1,10 @@
 ---
 
 - name: Install Supervisor
-  apt: name={{ item }} state=installed
-  with_items:
-    - supervisor
+  apt: 
+    name:
+        - supervisor
+    state: present
 
 - name: Create the Gunicorn config directory
   file: path=/etc/gunicorn state=directory owner={{ user_name }} group={{ group_name }} mode=0700
