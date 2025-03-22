@@ -4,4 +4,4 @@ gunicorn==23.0.0
 itsdangerous==0.24
 Jinja2>=2.10.1
 MarkupSafe==1.0
-Werkzeug==0.15.3
+Werkzeug==3.0.6
